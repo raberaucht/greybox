@@ -1,0 +1,15 @@
+/**
+ * Color utilities
+ */
+
+.u-color--blue {
+  color: #134b93;
+}
+
+.u-color--purple {
+  color: #7f3989;
+}
+
+.u-color--green {
+  color: #c4d332;
+}

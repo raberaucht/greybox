@@ -1,0 +1,16 @@
+.Table {
+  border: 1px solid var(--darkest)
+} 
+
+.Table td,
+.Table th {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border: 1px solid var(--light)
+}
+
+.Table thead {
+  background: var(--normal)
+}

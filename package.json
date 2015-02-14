@@ -1,0 +1,18 @@
+{
+  "name": "greybox",
+  "version": "0.0.0",
+  "description": "Prototyping boiler plate for UX designers",
+  "main": "index.js",
+  "private": true,
+  "dependencies": {
+    "gulp": "^3.8.11",
+    "gulp-concat": "^2.4.3",
+    "gulp-connect": "^2.2.0",
+    "gulp-jade": "^0.11.0",
+    "gulp-myth": "^1.0.2",
+    "gulp-sftp": "^0.1.4",
+    "gulp-watch": "^4.1.1",
+    "gulp-zebrakss": "0.0.2"
+  },
+  "devDependencies": {}
+}

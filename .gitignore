@@ -1,0 +1,12 @@
+*.swp
+.DS_Store
+.ftppass
+node_modules
+build
+src/_css/suit
+src/_css/suitcss.css
+src/_css/vendor
+src/_assets/fonts
+src/_js/vendor
+src/_templates/helpers
+styleguide

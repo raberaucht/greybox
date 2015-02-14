@@ -1,0 +1,31 @@
+/**
+ * Overlay
+ * A component to display a surface with a layer on top.
+ * For example a text on an image.
+ */
+
+.Overlay {
+  position: relative;
+}
+
+.Overlay-layer {
+  position: absolute;
+  padding: inherit;
+}
+
+.Overlay-layer--top {
+  top: 0;
+  left: 0;
+}
+
+.Overlay-layer--bottom {
+  bottom: 0;
+}
+
+.Overlay-layer--center {
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+

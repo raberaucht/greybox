@@ -1,0 +1,7 @@
+/**
+ * Text-transform utilities
+ */
+
+.u-textUppercase {
+  text-transform: uppercase;
+}

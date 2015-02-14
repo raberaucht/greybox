@@ -1,0 +1,63 @@
+/**
+ * Navigation
+ * Draft component.
+ */
+
+.Navigation {
+  margin-bottom: 2rem;
+}
+
+.Navigation ul {
+  list-style-type: none;
+}
+
+.Navigation--background {
+  padding: 1rem;
+  background: var(--lightest);
+}
+
+.Navigation > ul > li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.Navigation > ul > li > a, .Navigation ul > li > span {
+  color: var(--darkest);
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.Navigation-secondLevel {
+  display: none;
+  background: var(--normal);
+  position: absolute;
+}
+
+.Navigation-secondLevel li {
+  border-bottom: 1px solid var(--darkest);
+  padding: 0.3rem;
+}
+
+.Navigation-secondLevel a {
+  font-weight: bold;
+  font-size: 0.8rem;
+  color: var(--darkest)
+}
+
+.Navigation-trigger:hover .Navigation-secondLevel, .Navigation-secondLevel:hover {
+  display: block;
+}
+
+.Navigation-toggle {
+  display: none;
+  text-align: right;
+  background: var(--lightest);
+  padding: 1rem;
+}
+
+@media (max-width: 800px) {
+  
+  .Navigation {display: none;}
+  .Navigation-toggle {display: block;}
+
+}

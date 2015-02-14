@@ -1,0 +1,75 @@
+/*
+GreyBox
+
+A simple greyish box for rapid prototypig and wireframing.
+It is just a placeholder to show that there will be some content in the future.
+Responisiveness can be demonstrated with GreyBoxes.
+
+Draft component.
+
+
+.GreyBox--small   - small GreyBox
+.GreyBox--large   - larger GreyBox
+.GreyBox--xlarge  - super large GreyBox
+
+Markup:
+<div class='GreyBox {$modifiers}'>
+  <div class='GreyBox-label'>This is a GreyBox</div>
+</div>
+
+Styleguide 1.1
+*/
+
+:root {
+  --lightest:   gainsboro;
+  --light:      lightgray;
+  --normal:     silver;
+  --dark:       darkgray;
+  --darkest:    gray;
+  --highlight:  goldenrod;
+}
+
+.GreyBox {
+  min-height: 16rem;
+  background: var(--normal);
+  box-sizing: border-box;
+  border: 1px solid var(--light);
+  padding: 1rem;
+}
+
+.GreyBox-label {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: var(--darkest);
+  margin-bottom: 0.5rem;
+}
+
+.GreyBox-label--small{
+  font-size: 00.8rem;
+  color: var(--darkest);
+}
+
+.GreyBox--tiny {min-height: 2rem;}
+.GreyBox--xsmall {min-height: 4rem;}
+.GreyBox--small {min-height: 8rem;}
+.GreyBox--large {min-height: 32rem;}
+.GreyBox--xlarge {min-height: 64rem;}
+
+.GreyBox--important {background: var(--dark);}
+.GreyBox--less-important {background: var(--light);}
+.GreyBox--highlight {background: var(--highlight);}
+
+.GreyBox-navigation {
+  margin: 1rem 0 0 1rem;
+}
+
+.GreyBox-navigation > ul > li {
+  display: inline;
+  padding-right: 1rem;
+}
+
+.GreyBox-navigation > ul > li > a {
+  color: var(--darkest);
+  font-weight: bold;
+  font-size: 1.2rem;
+}

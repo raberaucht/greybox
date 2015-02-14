@@ -1,0 +1,50 @@
+/**
+ * News 
+ * Draft component
+ */
+
+.News {
+}
+
+.News-date {
+  font-size: 0.75rem;
+}
+
+.News-headline {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.News-shortDescription {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.News-thumb {
+  margin-right: 1rem;
+  float: left;
+}
+
+.News-divider {
+  margin-top: 1.5rem;
+}
+
+.News-link {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.News-link:hover {
+  text-decoration: none;
+  font-weight: bold;
+}
+.News-link:before {
+  content: "";
+  position: absolute;
+  height: 1px;
+  bottom: 0;
+  width: 130%;
+  border-bottom: 1px solid blue;
+}

@@ -1,0 +1,12 @@
+.DefinitionList dt {
+  font-weight: bold;
+  color: var(--normal);
+}
+
+.DefinitionList dd {
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--lightest)
+}

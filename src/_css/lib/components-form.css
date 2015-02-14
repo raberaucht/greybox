@@ -1,0 +1,14 @@
+.Form input,
+.Form textarea {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 4px;
+}
+
+.Form-label {
+  display: block;
+}
+
+.Form-element {
+  display: block;
+}

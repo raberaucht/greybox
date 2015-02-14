@@ -1,0 +1,15 @@
+@custom-media --sm-viewport (min-width:320px) and (max-width:640px);
+@custom-media --md-viewport (min-width:640px) and (max-width:960px);
+@custom-media --lg-viewport (min-width:960px);
+
+:root {
+  --Grid-gutter-size: 30px;
+  --Arrange-gutter-size: 30px;
+
+  --Button-border-color: currentcolor;
+  --Button-border-width: 2px;
+  --Button-color: inherit;
+  --Button-disabled-opacity: 0.6;
+  --Button-font: inherit;
+  --Button-padding: 0.4em 0.75em;
+}

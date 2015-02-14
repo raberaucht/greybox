@@ -1,0 +1,25 @@
+.RowSwap {
+  display: table;
+  width: 100%;
+}
+
+@media (--sm-viewport) {
+
+  .RowSwap-sm-topRow {display: table-header-group;}
+  .RowSwap-sm-bottomRow {display: table-footer-group;}
+
+}
+
+@media (--md-viewport) {
+  
+  .RowSwap-md-topRow {display: table-header-group;}
+  .RowSwap-md-bottomRow {display: table-footer-group;}
+
+}
+
+@media (--lg-viewport) {
+
+  .RowSwap-lg-topRow {display: table-header-group;}
+  .RowSwap-lg-bottomRow {display: table-footer-group;}
+
+}
